@@ -20,8 +20,6 @@ Get a student to enter the score and tell them how they have done; don't forget 
 (function(){
   var initial = "score = int(input(&quot;Enter score: &quot;))
 \n" +
-    "
-\n" +
     "if score &gt;= 70:
 \n" +
     "    print(&quot;Grade: A&quot;)
@@ -42,7 +40,8 @@ Get a student to enter the score and tell them how they have done; don't forget 
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "python3": true
+    "python3": true,
+    "trashId": "easy-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
